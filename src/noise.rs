@@ -36,7 +36,7 @@ impl Squirrel_U32 {
             bit_noise3: 5279501,
             y_prime: 8132429,
             z_prime: 346309,
-            t_prime: 0,
+            t_prime: 62989,
         }
     }
 }
