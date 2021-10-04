@@ -1,0 +1,19 @@
+[package]
+authors = ["Willi Kappler <grandor@gmx.de"]
+categories = ["network-programming", "science"]
+description = "A crate for noise and random number values"
+documentation = "https://docs.rs/sq_noise"
+name = "sq_noise"
+version = "0.1.0"
+edition = "2018"
+exclude = ["examples"]
+keywords = ["numeric", "random", "noise"]
+license = "MIT"
+repository = "https://github.com/willi-kappler/sq_noise/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.release]
+lto = true
